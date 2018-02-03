@@ -1,0 +1,54 @@
+/* Start my styles */
+
+.brand {
+    white-space: nowrap;
+    position: relative;
+    top: -7px;
+}
+.brand .small {
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    margin-left: -25px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    display: block;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background: url('waves.png');
+    padding-top: 80px;
+}
+
+.lead {
+    font-size: 110%;
+}
+.nav li a img {
+}
+.social-media-container {
+    width: 235px;
+    line-height: 56px;
+}
+
+.social-media-container iframe {
+    display: inline-block !important;
+    vertical-align: middle;
+    position: relative;
+    left: 16px;
+}
+.social-media-container a {
+    display: inline-block !important;
+    padding: 0 !important;
+}
+
+.footer {
+    padding: 100px 20px 20px;
+    font-size: 80%;
+    text-align: center;
+}
+
